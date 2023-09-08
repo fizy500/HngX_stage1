@@ -20,7 +20,7 @@ main > div {
   justify-content: center;
   /* background: royalblue; */
   background: #7393B3; 
-  padding: 0 20% 0 20%;
+  padding: 0 20% 12px 20%;
   height: 50vh;
 }
 img {
@@ -40,11 +40,15 @@ ul {
   justify-content: center;
   align-items: center;
 }
+ul :nth-child(2){
+  font-size:23px ;
+}
 li{
   margin-bottom: 2rem;
   background:#C0C0C0 ;
   padding: 2px 3px;
   border-radius:5px;
+  font-size:20px;
 }
 a{
   text-decoration: none;
